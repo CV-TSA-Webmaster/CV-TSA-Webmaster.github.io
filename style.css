@@ -18,7 +18,7 @@
 }
 
 body {
-    background: linear-gradient(to right, #4287f5, #42d1f5);
+    background: linear-gradient(to right, #4286f5, rgb(66, 209, 245));
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
 	font-family: "Arial";
@@ -28,16 +28,49 @@ body {
 	min-height: 100vh;
 }
 
+main {
+	font-size: 16px;
+	flex: 1;
+}
+
+section {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 500px;
+	width: 100%;
+}
+
+section img {
+  	position: absolute;
+    height: 500px;
+		z-index: -1;
+}
+    
+.cover-right {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to right, rgba(66, 209, 245, 0.1), rgb(66, 209, 245), rgb(66, 209, 245));
+}
+
+.cover-left {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to right, rgb(66, 209, 245), rgb(66, 209, 245), rgba(66, 209, 245, 0.1));
+}
+
+aside {
+	float: right;
+	width: 50%;
+}
+
+summary {
+	padding: 2% 10%;
+}
+
 header {
 	font-size: 32px;
 	line-height: 80px;
 	text-align: center;
-}
-
-main {
-	font-size: 16px;
-	margin: 24px;
-	flex: 1;
 }
 
 footer {
@@ -49,27 +82,6 @@ footer {
 	flex-shrink: 0;
 }
 
-.normalUL ul {
-  list-style-type: circle;
-  overflow: hidden;
-}
-
-.gray-nav {
-  float: left;
-}
-
-.gray-nav a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.gray-nav a:hover {
-  background-color: #111;
-}
-
 nav {
     background-color: rgba(0, 0, 0, 50%);
 	min-height: 75px;
@@ -79,7 +91,6 @@ nav {
 }
 
 nav a {
-	width: 100px;
 	height: 75px;
 	line-height: 75px;
 	display: inline-block;
@@ -96,19 +107,7 @@ nav a {
 
 a:hover {
 	background-color: rgba(0, 0, 0, 20%);
-
-	/* background-color: #0081AB; */
-	/* color: #8FD400; */
 }
-
-/* // c + p */
-/* // what's c + p */
-/* for a schedule of events */
-/* body {
-  background: #2D3134;
-  font-family: Helvetica, sans-serif;
-  margin-top: 50px;
-} */
 .schedule-container {
   border-radius: 10px;
   background: rgba(255, 255, 255, 20%);
@@ -160,7 +159,80 @@ a:hover {
   text-align: right;
 }
 
-
-img {
+/* for about.html */
+.section-table-odd {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 40%);
+    color: #fff;
     width: 100%;
+}
+
+.section-table-even {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    background-color: rgba(200, 200, 200, 40%);
+    color: #fff;
+    width: 100%;
+}
+
+.section-td,
+.section-th {
+    border: none;
+    text-align: center;
+    padding: 8px;
+    max-width: 50%;
+    color: black;
+}
+
+/* for image slideshow in about.html */
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+/* img {vertical-align: middle;} */
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.officer-text {
+    width: 500px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 60%);
+    color: white;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  background-color: rgba(0, 0, 0, 40%);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  user-select: none;
+}
+
+.prev {
+  left: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 70%);
 }
