@@ -1,6 +1,12 @@
 climbing
 https://media.istockphoto.com/vectors/realistic-mountains-landscape-morning-wood-panorama-pine-trees-and-vector-id1150481340?k=20&m=1150481340&s=612x612&w=0&h=y_RdS4lPY2p7O_bh1ZhaeLLOOuSLNBaHZFMdmgdQaVE=
 
+climbing_2
+https://alaskamountainguides.com/dev/wp-content/uploads/EasyRotatorStorage/user-content/erc_97_1509391035/content/assets/akrockclimbing1-0.jpg
+
+climbing_3
+https://www.steliasguides.com/wp-content/uploads/2018/02/climber-on-alaska-summit.jpg
+
 fishing
 https://www.tikchiklodge.com/fishing/our-fishing-program
 
