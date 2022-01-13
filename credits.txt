@@ -18,5 +18,10 @@ https://cdn.thewirecutter.com/wp-content/uploads/2017/03/fishing-rod-reel-lowres
 ice_fishing
 http://www.adfg.alaska.gov/static/applications/webintra/wildlifenews/images/article_images/4901.jpg
 
+
+
 sailing
 https://media.istockphoto.com/vectors/vector-seascape-with-boat-vector-id937248510?k=20&m=937248510&s=612x612&w=0&h=jKbzJ8A9WAsWILUrHup2R_48_zGfGjbSReIcVdt28nc=
+
+sailing_2
+https://uploads.alaska.org/categoryLandingPages/Alaska-Statewide-Landing-Pages/Alaska-Sailing-Private-Yacht-Charters/_1200x630_crop_center-center_82_none/alaska-adventure-sailing.jpg?mtime=20200916065116&focal=none&tmtime=20210610182226
